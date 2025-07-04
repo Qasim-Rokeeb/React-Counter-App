@@ -1,30 +1,29 @@
-# Day 2 - React Counter App
 
-This is Day 2 of my 30-Day React Relearning Journey. Today’s focus was learning about **React state** using the `useState` hook and handling button events to update the UI.
+# Day 2 - React Counter App ➕➖
+
+This is Day 2 of my 30-Day React Relearning Journey. The focus of this project is to:
+
+- Understand and implement React's `useState` hook
+- Handle user interactions through event listeners (`onClick`)
+- Build a responsive and interactive Counter App
+- Enhance UI with Tailwind CSS and Framer Motion animations
 
 ---
 
 ## 🚀 What I Learned
 
-✅ How to manage component state with `useState`  
-✅ How React re-renders components when state changes  
-✅ How to handle events like `onClick`  
-✅ How to use Framer Motion for interactive button animations  
-✅ How to combine Tailwind CSS with React for clean UI
-
----
-
-## 📦 Features
-
-- A visible counter
-- "Increment" and "Reset" buttons
-- Smooth button scaling with Framer Motion
+✅ How to manage component state using `useState`  
+✅ How to update the UI reactively based on state changes  
+✅ Handling events like `onClick` in React components  
+✅ Creating animated UI elements with Framer Motion  
+✅ Combining Tailwind CSS with React for a responsive layout
 
 ---
 
 ## 🧠 Tech Stack
 
 - React (JavaScript)
+- Vite
 - Tailwind CSS
 - Framer Motion
 
@@ -32,20 +31,43 @@ This is Day 2 of my 30-Day React Relearning Journey. Today’s focus was learnin
 
 ## 📸 Preview
 
-![App Preview](./screenshot.png)
+![App Preview](https://raw.githubusercontent.com/Qasim-Rokeeb/counter-app/main/screenshot.png)
 
 ---
 
-## 🛠️ Installation
+## 🛠️ Installation & Running Locally
 
 ```bash
 git clone https://github.com/Qasim-Rokeeb/counter-app.git
 cd counter-app
 npm install
 npm run dev
+````
 
-## 🌐 Live Demo
+---
 
-Hosted on Vercel: https://qasimrokeeb-counter-app.vercel.app
+## 🌐 Deployment
 
-Made with 💻 by Qasim Rokeeb
+This project is deployed on [Vercel](https://vercel.com/) — [Live Link](https://qasimrokeeb-counter-app.vercel.app/)
+
+---
+
+## 🔮 What's Next?
+
+Tomorrow (Day 3), I’ll work on **Conditional Rendering** and build a **Login Toggle UI** that shows and hides content based on user interaction.
+
+Stay tuned!
+
+---
+
+## 🙋‍♂️ About Me
+
+* 🔗 Portfolio: [qasimrokeeb.vercel.app](https://qasimrokeeb.vercel.app)
+* 🐦 Twitter: [@qasimrokeeb](https://x.com/qasimrokeeb)
+* 💻 GitHub: [Qasim-Rokeeb](https://github.com/Qasim-Rokeeb)
+
+---
+
+Made with 💻 by [Qasim Rokeeb](https://github.com/Qasim-Rokeeb)
+
+```
