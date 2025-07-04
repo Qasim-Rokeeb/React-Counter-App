@@ -44,7 +44,7 @@ cd counter-app
 npm install
 npm run dev
 
-🌐 Live Demo
+## 🌐 Live Demo
 
 Hosted on Vercel: https://qasimrokeeb-counter-app.vercel.app
 
