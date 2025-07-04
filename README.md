@@ -31,7 +31,7 @@ This is Day 2 of my 30-Day React Relearning Journey. The focus of this project i
 
 ## 📸 Preview
 
-![App Preview](https://raw.githubusercontent.com/Qasim-Rokeeb/counter-app/main/screenshot.png)
+![App Preview](https://raw.githubusercontent.com/Qasim-Rokeeb/react-counter-app/main/screenshot.png)
 
 ---
 
