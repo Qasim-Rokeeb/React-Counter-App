@@ -11,7 +11,7 @@ export default function Counter() {
       <div className="flex gap-4">
         <motion.button
           whileTap={{ scale: 0.9 }}
-          className="bg-yellow-400 text-white px-4 py-2 rounded-lg"
+          className="bg-yellow-400  px-4 py-2 rounded-lg"
           onClick={() => setCount(count - 1)}
         >
           Decrement
@@ -19,7 +19,7 @@ export default function Counter() {
 
         <motion.button
           whileTap={{ scale: 0.9 }}
-          className="bg-purple-600 px-4 py-2 rounded-lg"
+          className="bg-purple-600 px-4 text-white py-2 rounded-lg"
           onClick={() => setCount(count + 1)}
         >
           Increment
