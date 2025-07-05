@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { getDefaultValueType, motion } from "framer-motion";
 
 export default function Counter() {
-  const [count, setCount] = useState(0);
+ const [count, setCount] = useState(0);
 
   return (
     <div className="flex flex-col items-center gap-4">
@@ -19,12 +19,25 @@ export default function Counter() {
 
         <motion.button
           whileTap={{ scale: 0.9 }}
+          className="bg-yellow-400 px-4 py-2 rounded-lg"
+          onClick={() => setCount( count - 1)}
+        >
+          Decrease
+        </motion.button>
+      </div>
+     
+        <motion.button
+          whileTap={{ scale: 0.9 }}
           className="bg-gray-200 px-4 py-2 rounded-lg"
           onClick={() => setCount(0)}
         >
-          Reset
-        </motion.button>
-      </div>
+         Reset
+          </motion.button>
+        
+
+        
     </div>
+    
   );
 }
+
