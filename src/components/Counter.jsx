@@ -34,10 +34,10 @@ export default function Counter() {
          Reset
           </motion.button>
         
-
         
     </div>
     
   );
 }
+
 
