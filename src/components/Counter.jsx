@@ -8,6 +8,10 @@ export default function Counter() {
     <div className="flex flex-col items-center gap-4">
       <h1 className="text-4xl font-bold text-purple-600">{count}</h1>
 
+
+
+
+
       <div className="flex gap-4">
         <motion.button
           whileTap={{ scale: 0.9 }}
@@ -33,7 +37,8 @@ export default function Counter() {
         >
          Reset
           </motion.button>
-        
+
+  
         
     </div>
     
